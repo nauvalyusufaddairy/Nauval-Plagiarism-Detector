@@ -1,0 +1,30 @@
+/* .shadows {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.greeting-container {
+  height: 20rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.greeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+._mt-7 {
+  margin-top: 6rem;
+}
+._text-align-center {
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+._mt-7 {
+  margin-top: 6rem;
+}
+._text-align-center {
+  text-align: center;
+}
+._container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+._card {
+  width: 38rem;
+  height: 20rem;
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+._card-content {
+  width: 35rem;
+  margin: 0;
+  height: 100rem;
+  overflow-y: scroll;
+  padding: 1rem;
+
+  background-color: whitesmoke;
+}
+.ara {
+  background-color: rgb(30, 255, 0);
+}
+._hide_overflow {
+  overflow: hidden;
+}
+._mb-7 {
+  margin-bottom: 6rem;
+}

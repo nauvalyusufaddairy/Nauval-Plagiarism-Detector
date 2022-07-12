@@ -1,0 +1,9 @@
+._card-contents {
+    width: 10rem;
+    margin: 0;
+    height: 10rem;
+    overflow-y: scroll;
+    padding: 1rem;
+  
+    background-color: whitesmoke;
+  }
