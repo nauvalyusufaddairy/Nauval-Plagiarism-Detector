@@ -68,7 +68,7 @@ function App() {
             <Navbar />
             <RabinKarp />
           </Route>
-          <Route path={user_id ? "/riwayat-pengujian" : "/login"}>
+          <Route path={user_id ? "/riwayat_pengujian" : "/login"}>
             <Navbar />
             <Riwayat />
           </Route>

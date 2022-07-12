@@ -14,10 +14,10 @@ function Tentang() {
               style={{ cursor: "pointer" }}
               onClick={() => history.push("/")}
             >
-              <a>beranda</a>
+              <a>Home</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-              tentang
+              About
             </li>
           </ol>
         </nav>
@@ -53,7 +53,7 @@ function Tentang() {
               class="btn btn-outline-primary"
               onClick={() => history.push("/")}
             >
-              kembali
+              back
             </button>
           </div>
         </div>

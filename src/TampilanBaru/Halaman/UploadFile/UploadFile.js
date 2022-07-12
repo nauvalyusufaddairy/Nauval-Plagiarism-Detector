@@ -642,7 +642,7 @@ function UploadFile() {
               Process
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-              upload file
+              Upload
             </li>
           </ol>
         </nav>
@@ -660,9 +660,7 @@ function UploadFile() {
               onChange={parseWordDocxFile0}
             />
             <label class="custom-file-label" for="customFile">
-              {fileName.fn1
-                ? fileName.fn1
-                : "pilih file skripsi yang akan diuji"}
+              {fileName.fn1 ? fileName.fn1 : "browse initial file"}
             </label>
           </div>
           <div class="custom-file mb-4 mt-4">
@@ -673,7 +671,7 @@ function UploadFile() {
               onChange={parseWordDocxFile1}
             />
             <label class="custom-file-label" for="customFile">
-              {fileName.fn2 ? fileName.fn2 : "pilih file penguji"}
+              {fileName.fn2 ? fileName.fn2 : "browse compared file "}
             </label>
           </div>
           <div className="d-flex align-items-center justify-content-center mb-4">
@@ -684,7 +682,7 @@ function UploadFile() {
               //disabled={compare(uji, penguji)}
               onClick={cancel}
             >
-              {fileName.fn1 ? "cancel" : "kembali"}
+              {fileName.fn1 ? "cancel" : "back"}
             </Button>
             <Button
               variant="contained"

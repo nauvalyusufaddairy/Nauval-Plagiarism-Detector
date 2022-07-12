@@ -650,7 +650,7 @@ function RabinKarp() {
               type="text"
               class="form-control"
               name="input1"
-              placeholder="text uji"
+              placeholder="initial text"
               onChange={handleChange.bind(this)}
             />
           </div>
@@ -660,7 +660,7 @@ function RabinKarp() {
               type="text"
               class="form-control"
               name="input2"
-              placeholder="text penguji"
+              placeholder="compared text"
               onChange={handleChange.bind(this)}
             />
           </div>
@@ -717,7 +717,7 @@ function RabinKarp() {
             <hr className="divider-right" />
           </div> */}
           <Divider className="mb-4">
-            <Chip label="atau" />
+            <Chip label="or" />
           </Divider>
           <div className="col-md-12 d-flex justify-content-center align-item-center mb-4">
             <Button

@@ -84,11 +84,10 @@ function Hasil() {
         (err) => {
           if (err) {
             alert(err);
-          } else {
-            history.push("/riwayat-pengujian");
           }
         }
       );
+    history.push("/riwayat_pengujian");
   };
 
   useEffect(() => {}, []);

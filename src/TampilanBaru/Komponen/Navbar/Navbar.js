@@ -18,12 +18,12 @@ function Navbar() {
   const logout = (e) => {
     console.log("logout");
     e.preventDefault();
-    auth.signOut().then(() => history.push("/daftar"));
+    auth.signOut().then(() => history.push("/"));
   };
   return (
     <>
       <div className="d-flex flex-row ">
-        <h2 className="col-md-8 mt-2"> Plagiarism Detection </h2>
+        <h2 className="col-md-8 mt-2"> Plagiarism Detector </h2>
         <div className="col-md-4 _pointer">
           <AccountCircle
             onClick={hold}
@@ -73,7 +73,7 @@ function Navbar() {
               </th>
               <th
                 className="_text-align-center col-md-2"
-                onClick={() => history.push("/riwayat-pengujian")}
+                onClick={() => history.push("/riwayat_pengujian")}
               >
                 History
               </th>

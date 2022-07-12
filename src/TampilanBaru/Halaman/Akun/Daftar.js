@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import { auth, rtdb } from "../../../Utils/firebase";
-import { useHistory } from "react-router-dom";
+import { useHistory, Redirect } from "react-router-dom";
 import { useStateValue } from "../../../Utils/StateProvider";
 
 function Daftar() {
@@ -33,9 +33,14 @@ function Daftar() {
           .ref("/user")
           .child(`/${i.user.uid}`)
           .set(data, (err) => {
-            if (!err) {
-              history.push("/");
+            if (err) {
+              alert(err);
+              return;
             }
+            dispatch({
+              type: "USER_ID",
+              userId: i.user.uid,
+            });
           })
       );
     // .then((res) => {
@@ -49,6 +54,7 @@ function Daftar() {
     //     });
     // })
     // .then(() => history.push("/beranda"));
+    user_id && history.push("/");
   };
 
   return (
