@@ -34,17 +34,8 @@ function Login() {
   }, []);
   return (
     <>
-      <div className="col-md-12">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">
-              Login
-            </li>
-          </ol>
-        </nav>
-      </div>
       <div className="d-flex justify-content-center align-items-center mt-7">
-        <div className=" col-md-8 shadow rounded">
+        <div className=" col-md-8 col-sm-12 col-xs-12 shadow rounded">
           <div class="form-group">
             <label for="formGroupExampleInput">email</label>
             <textarea

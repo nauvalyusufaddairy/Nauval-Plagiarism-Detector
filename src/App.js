@@ -18,7 +18,7 @@ import Riwayat from "./TampilanBaru/Halaman/Riwayat/Riwayat";
 // import Navbar from "./Components/Navbar/Navbar";
 // import Hasil from "./Halaman/Hasil/Hasil";
 // import UploadPage from "./Halaman/UploadPage/UploadPage";
-import Bantuan from "./TampilanBaru/Halaman/Bantuan/Bantuan"
+import Bantuan from "./TampilanBaru/Halaman/Bantuan/Bantuan";
 import Tentang from "./TampilanBaru/Halaman/Tentang/Tentang";
 
 function App() {
@@ -77,7 +77,6 @@ function App() {
             <UploadFile />
           </Route>
           <Route path="/daftar">
-            <Navbar />
             <Daftar />
           </Route>
           <Route path={user_id ? "/edit-akun" : "/login"}>
@@ -88,12 +87,12 @@ function App() {
             <Login />
           </Route>
           <Route path="/bantuan">
-            <Navbar/>
-            <Bantuan/>
-            </Route>
+            <Navbar />
+            <Bantuan />
+          </Route>
           <Route path="/tentang">
-            <Navbar/>
-           <Tentang/>
+            <Navbar />
+            <Tentang />
           </Route>
           <Route path={user_id ? "/hasil" : "/login"}>
             <Hasil />

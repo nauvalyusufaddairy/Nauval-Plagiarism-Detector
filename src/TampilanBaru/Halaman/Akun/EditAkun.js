@@ -98,7 +98,7 @@ function EditAkun() {
         </div> */}
       <div className="d-flex flex-row col-md-12 ">
         {/*  */}
-        <div className="col-md-12 d-flex flex-column justify-content-center align-items-center  mt-4">
+        <div className="col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center  mt-4">
           <div className="d-flex flex-row justify-content-center align-items-center"></div>
 
           <div className="col-md-8 d-flex flex-column rounded p-3 _shadow">

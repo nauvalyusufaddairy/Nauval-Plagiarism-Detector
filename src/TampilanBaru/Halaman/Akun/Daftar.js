@@ -53,7 +53,7 @@ function Daftar() {
 
   return (
     <>
-      <div className="col-md-12 d-flex flex-column justify-content-center align-items-center  mt-7">
+      <div className="col-md-12 d-flex col-sm-12 col-xs-12 flex-column justify-content-center align-items-center  mt-7">
         <div className="col-md-8 d-flex flex-column rounded p-3 _shadow">
           <div class="input-group input-group-sm">
             <div class="input-group-prepend">
